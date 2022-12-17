@@ -211,7 +211,54 @@ body {
 }
 
 .track__img {
-margin: 0 auto;
-display: block;
-margin-top: 250px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 250px;
+}
+
+.evo {
+  font-size: 14px;
+  margin-bottom: 100px;
+}
+
+.evo-black {
+  background-color: #363636;
+  padding: 100px 0 50px;
+  color: #fff;
+}
+
+.evo-black__info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.evo-black__title {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 32px;
+  padding-right: 50px;
+}
+
+.evo-black__infobox {
+  flex-basis: 437px;
+}
+
+.evo-black__text {
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.evo-black__img {
+  display: block;
+  margin: 170px auto 60px;
+}
+
+.evo__descr-list {
+  display: flex;
+  justify-content: center;
+  gap: 0 65px;
+}
+
+.evo__descr-list dd {
+  text-transform: uppercase;
 }
