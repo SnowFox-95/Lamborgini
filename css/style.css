@@ -182,3 +182,36 @@ body {
 .info__table tr {
   line-height: 40px;
 }
+
+.track {
+  padding-bottom: 90px;
+  background-image: url(../images/track_bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*
+.track__inner {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+*/
+
+.track__title {
+  font-size: 32px;
+  font-weight: 300;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.track__text {
+  max-width: 435px;
+}
+
+.track__img {
+margin: 0 auto;
+display: block;
+margin-top: 250px;
+}
