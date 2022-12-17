@@ -18,8 +18,14 @@ a {
   text-decoration: none;
 }
 
-.container {
+.big-container {
   max-width: 1220px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 920px;
   padding: 0 10px;
   margin: 0 auto;
 }
@@ -82,9 +88,9 @@ body {
   font-family: "Impact", sans-serif;
   font-weight: 400;
   font-size: 76px;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.08em;
   margin-bottom: 10px;
-  align-self: center;
+  margin-left: 76px;
 }
 
 .subtitle {
@@ -109,8 +115,70 @@ body {
   margin-bottom: 10px;
 }
 
-.promo__arrow{
+.promo__arrow {
   margin-top: auto;
   margin-bottom: 30px;
   align-self: center;
+}
+
+.info {
+  margin-bottom: 100px;
+}
+
+.info__part {
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info__title {
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  font-weight: 300;
+  font-size: 32px;
+}
+
+.info__part-textbox {
+  display: flex;
+  justify-content: space-between;
+  gap: 0 20px;
+}
+
+.info__text {
+  flex-basis: 440px;
+  margin-bottom: 30px;
+}
+
+.info__part-img {
+  object-fit: cover;
+}
+
+.info__part-first {
+  display: block;
+}
+
+.info__part-third {
+  padding-top: 66px;
+}
+
+.info__content {
+  flex-basis: 415px;
+}
+
+.info__part-second .info__text {
+  max-width: 352px;
+}
+
+.info__part-third .info__text {
+  max-width: 377px;
+}
+
+.info__table {
+  flex-basis: 450px;
+  border-bottom: 1px solid #040404;
+  border-top: 1px solid #040404;
+}
+
+.info__table tr {
+  line-height: 40px;
 }
