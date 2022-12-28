@@ -227,6 +227,30 @@ body {
   color: #fff;
 }
 
+.evo-black__inner {
+  position: relative;
+}
+
+.evo-black__inner::before {
+  content: "";
+  background-image: url(../images/dec-1.svg);
+  width: 185px;
+  height: 213px;
+  position: absolute;
+  top: 210px;
+  left: -130px;
+}
+
+.evo-black__inner::after {
+  content: "";
+  background-image: url(../images/dec-2.svg);
+  width: 498px;
+  height: 572px;
+  position: absolute;
+  top: 290px;
+  left: -40px;
+}
+
 .evo-black__info {
   display: flex;
   justify-content: space-between;
@@ -251,14 +275,78 @@ body {
 .evo-black__img {
   display: block;
   margin: 170px auto 60px;
+  position: relative;
+  z-index: 1;
 }
 
 .evo__descr-list {
   display: flex;
   justify-content: center;
   gap: 0 65px;
+  position: relative;
+  z-index: 1;
 }
 
 .evo__descr-list dd {
   text-transform: uppercase;
+}
+
+.evo-white__inner {
+  padding-top: 125px;
+  position: relative;
+}
+
+.evo-white__inner::before {
+  content: "";
+  background-image: url(../images/dec-3.png);
+  width: 274px;
+  height: 257px;
+  position: absolute;
+  top: -30px;
+  left: 370px;
+}
+
+.evo-white__inner::after {
+  content: "";
+  background-image: url(../images/dec-4.png);
+  width: 324px;
+  height: 311px;
+  position: absolute;
+  top: 160px;
+  left: 590px;
+}
+
+.evo-white__text {
+  margin-bottom: 30px;
+  max-width: 590px;
+}
+
+.evo-white__text:first-child {
+  max-width: 285px;
+}
+
+.evo-white__text:nth-child(2) {
+  max-width: 437px;
+}
+
+.evo-white__video {
+  margin-top: 100px;
+  background-image: url(../images/evo-video.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 264px;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  text-align: center;
+}
+
+.evo-white__video-link {
+  padding-left: 400px;
+}
+
+.evo-white__video-link span {
+  display: block;
+  color: #fff;
 }
