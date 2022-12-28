@@ -362,7 +362,8 @@ body {
   margin-bottom: 15px;
 }
 
-.blog__item-img {margin-top: 35px;
+.blog__item-img {
+  margin-top: 35px;
   margin-bottom: 20px;
 }
 
@@ -402,4 +403,37 @@ body {
 
 .swiper-button-right {
   transform: translateX(8px);
+}
+
+.blog__quote {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  gap: 0 20px;
+}
+
+.blog__quote-box {
+  margin-top: 70px;
+  flex-basis: 434px;
+}
+
+.blockquote {
+  margin-bottom: 30px;
+}
+
+.blockquote__name {
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-style: normal;
+}
+
+.blockquote__name span {
+  display: block;
+  font-size: 12px;
+  color: #9f6b08;
+  margin-bottom: 3px;
+}
+
+.blockquote__text {
+  font-style: italic;
 }
